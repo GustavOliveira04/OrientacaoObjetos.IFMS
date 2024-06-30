@@ -32,7 +32,7 @@ class Circulo:
         self.__raio += value
 
     def desinflar(self, value):
-        if value >= self.__raio:
+        if value >= self.__raio: 
             print("Erro!")
             return
         
