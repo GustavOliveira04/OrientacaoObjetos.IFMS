@@ -19,7 +19,7 @@ class Data:
         self.__mes = mes
         self.__ano = ano
         if not self.__validar_data():
-            print("\nData lixo da pomba em fiote 🤓\n")
+            print("\nMuda essa data ae! 🤓\n")
             return None
 
     # def __validar_data(self):

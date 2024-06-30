@@ -13,7 +13,7 @@ class Cadastro:
     
     @property
     def senha (self):
-        return self.__senha
+        return self.__senha 
     
     @login.setter
     def login (self, login):

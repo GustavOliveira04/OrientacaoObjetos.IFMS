@@ -7,7 +7,7 @@ class BombaCombustivel:
                  valorlitro:float,
                  quantidadeCombustivel:float ):
         self.__valorlitro = valorlitro
-        self.quantidadeCombustivel = quantidadeCombustivel
+        self.quantidadeCombustivel = quantidadeCombustivel 
 
     @property
     def valorlitro(self):   #getter

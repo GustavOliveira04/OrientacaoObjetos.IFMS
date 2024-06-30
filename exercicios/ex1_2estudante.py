@@ -14,7 +14,7 @@ class Student:
     @age.setter   # setter
     def age(self, age):
         if age > 0:
-            self.__age = age
+            self.__age = age 
 
 #-----------------------
 stud = Student('Vanessa', 19)
