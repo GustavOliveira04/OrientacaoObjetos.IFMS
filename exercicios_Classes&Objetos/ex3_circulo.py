@@ -75,7 +75,7 @@ def teste_get_set():
 
     # Testando o método mover
     circulo1.mover()
-    print(f"Circulo1 movido para a origem: {circulo1}")  # Circulo1 movido para a origem: Circulo(raio=8.0, centro=Ponto2D(0.0, 0.0))
+    print(f"Circulo1 movido para a origem: {circulo1}")   # Circulo1 movido para a origem: Circulo(raio=8.0, centro=Ponto2D(0.0, 0.0))
 
     circulo1.mover(Ponto2D(2.0, 2.0))
     print(f"Circulo1 movido para (2.0, 2.0): {circulo1}")  # Circulo1 movido para (2.0, 2.0): Circulo(raio=8.0, centro=Ponto2D(2.0, 2.0))

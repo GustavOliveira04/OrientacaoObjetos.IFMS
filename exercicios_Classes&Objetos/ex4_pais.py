@@ -43,7 +43,7 @@ class Pais:
     
     @populacao.setter           #setter
     def populacao(self, populacao):
-        self.__populacao = populacao
+        self.__populacao = populacao 
 
     @property         #getter
     def dimensao(self):
