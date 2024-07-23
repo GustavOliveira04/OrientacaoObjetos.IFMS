@@ -2,7 +2,7 @@
 
 #CORREÇÃO
 
-class BombaCombustivel:
+class BombaCombustivel: 
     def __init__(self,
                  valorlitro:float,
                  quantidadeCombustivel:float ):

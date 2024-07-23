@@ -35,7 +35,7 @@ logar = Cadastro('João Bobão', '123456789')
 print('Login:', logar.login,"  ",'Senha:', logar.senha)
 
 logar.login = 'Novo Login'
-logar.senha = 'Nova Senha'
+logar.senha = 'Nova Senha' 
 
 # logar.login = 'ABC' # não funciona
 # logar.senha = '123' # não funciona
