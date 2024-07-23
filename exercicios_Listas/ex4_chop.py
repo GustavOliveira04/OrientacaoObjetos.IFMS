@@ -5,7 +5,7 @@ def chop(lista):
         lista.pop(0)
     elif len(lista) == 2:
         lista.pop()
-        lista.pop(0)
+        lista.pop(0) 
 
 list = [4, 8, 5, 7]
 chop(list)

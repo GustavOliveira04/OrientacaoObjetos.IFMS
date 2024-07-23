@@ -4,7 +4,7 @@ def nested_sum(lista):
         for elemento in sublista:
             soma += elemento
     return soma
-
+ 
 # fora da função:
 
 t = [[1, 2], [4, 4, 4], [5], [6, 6]]

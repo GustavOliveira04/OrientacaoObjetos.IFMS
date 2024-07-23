@@ -5,7 +5,7 @@ def middle(lista):
         if i != 0 and i != len(lista) -1:
             novalista.append(e)
 
-    return lista
+    return lista 
 
 list = [1, 2, 3, 4]
 
