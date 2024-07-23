@@ -3,7 +3,7 @@ def criar_dicionario_quadrado(k):
         return "Erro: O valor de 'k' deve ser um inteiro positivo ou >= 1"
 
     dicionario_quadrado = {i: i**2 for i in range(1, k + 1)}
-    return dicionario_quadrado
+    return dicionario_quadrado 
 
 # Teste
 

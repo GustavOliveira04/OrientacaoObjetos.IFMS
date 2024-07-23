@@ -3,7 +3,7 @@ def extract(dicionario, chave):
     for chave in chaves:
         if chave in dicionario:
             novo_dicionario[chave] = dicionario[chave]
-    return novo_dicionario
+    return novo_dicionario 
 
 # Teste
 
