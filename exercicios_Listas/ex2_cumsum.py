@@ -23,4 +23,4 @@ print(cumsum(t))
 #         for j in range(indice):
 #             soma += lista[j]
 #         novalista.append(soma + elemento)
-#     return novalista
+#     return novalista 

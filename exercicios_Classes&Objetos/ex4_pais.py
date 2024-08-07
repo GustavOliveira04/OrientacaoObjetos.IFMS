@@ -15,7 +15,7 @@
 
 class Pais:
     def __init__(self, codigo:str, nome:str, populacao:int, dimensao:float, fronteiras:list[str]):
-        self.__codigo = codigo
+        self.__codigo = codigo 
         self.__nome = nome
         self.__populacao = populacao
         self.__dimensao = dimensao

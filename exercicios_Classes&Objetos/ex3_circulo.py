@@ -15,7 +15,7 @@
 from ex2_ponto2d import Ponto2D
 from math import pi
 
-class Circulo:
+class Circulo: 
     def __init__(self, raio:float, centro):
         self.__raio = raio
         self.__centro = centro

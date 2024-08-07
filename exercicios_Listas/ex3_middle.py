@@ -10,4 +10,4 @@ def middle(lista):
 list = [1, 2, 3, 4]
 
 listanova = middle(list)
-print(listanova)
+print(listanova) 
