@@ -16,3 +16,17 @@ print(dicionario_teste)
 k_erro = -5
 dicionario_teste_erro = criar_dicionario_quadrado(k_erro)
 print(dicionario_teste_erro)
+
+
+#----------------------------------------------------------------
+# resolução em sala
+
+# def kquadrado(k):
+#     d = {}
+#     for i in range(k):
+#         d[i+1] = (i+1)*(i+1)
+
+#     return d
+
+# ret = kquadrado(15)
+# print(ret)
