@@ -35,7 +35,7 @@ class Barco(Veiculo):
     
 c1 = Carro(marca='Honda', velocidade=100, numPortas=4)
 a1 = Aviao(marca='Airbuss', velocidade=140, numPortas=2)
-b1 = Barco(marca='Mitsubishi', velocidade=75, numPortas=1)
+b1 = Barco(marca='Mitsubishi', velocidade=75, numPortas=1) 
 
 c1.mover(300)
 a1.mover(3000)
