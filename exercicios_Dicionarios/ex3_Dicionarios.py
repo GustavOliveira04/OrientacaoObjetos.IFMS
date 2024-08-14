@@ -9,5 +9,5 @@ def extract(dicionario, chave):
 
 dicionario = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'd': 5, 'e': 6}
 chaves = ['a', 'c', 'e']
-novo_dicionario = extract(dicionario, chaves)
+novo_dicionario = extract(dicionario, chaves) 
 print(novo_dicionario)
