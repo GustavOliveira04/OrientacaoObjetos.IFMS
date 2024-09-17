@@ -11,22 +11,29 @@ print(resultado)
 
 
 #--------------------------------------------------------------------
-# resolvendo de outra maneira:
+# outra resolução:
 
-# def juntar_dicionarios(dict1, dict2):
-#     resultado = {}
+# def merge(d1, d2):
+#     dict = {}
+#     for e in d1:
+#         dict[e] = d1[e]
+#     for e in d2:
+#         dict[e] = d2[e]
+#     return dict
 
-#     for chave, valor in dict1.items():
-#         resultado[chave] = valor
-    
-#     for chave, valor in dict2.items():
-#         resultado[chave] = valor
 
-#     return resultado
+# x = {'dez': 10, 'vinte': 20, 'trinta': 30}
+# y = {'trinta': 30, 'quarenta': 40}
+# mesclado = merge(x, y)
+# print(mesclado)
 
-# # Teste
+#--------------------------------------------------------------------
+# de outra forma:
 
-# dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
-# dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
-# resultado = juntar_dicionarios(dict1, dict2)
-# print(resultado)
+# def merge(d1, d2):
+#     return d1 | d2
+
+# x = {'dez': 10, 'vinte': 20, 'trinta': 30}
+# y = {'trinta': 30, 'quarenta': 40}
+# mesclado = merge(x, y)
+# print(mesclado)
