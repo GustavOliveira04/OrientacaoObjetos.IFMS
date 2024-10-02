@@ -11,3 +11,4 @@ o1.c = 30
 o1.d = 40
 print(dir(o1))
 print(o1.__dict__)
+
