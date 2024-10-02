@@ -57,3 +57,4 @@ r3 = Retangulo()
 Retangulo.set_lados(4, 8)
 print(r1.area())
 print(r1.perimetro())
+
