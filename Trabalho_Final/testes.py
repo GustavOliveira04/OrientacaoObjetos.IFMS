@@ -57,3 +57,5 @@ if __name__ == "__main__":
     print(f"{medico.nome}: {medico.vida} de vida")
 
     batalha_dinamica(lutador1, lutador2, medico)
+
+

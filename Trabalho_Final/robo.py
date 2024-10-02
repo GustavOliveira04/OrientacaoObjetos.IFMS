@@ -41,3 +41,5 @@ class Robo:
 
     def precisa_de_medico(self):
         return self._vida < Robo.nivel_critico
+
+

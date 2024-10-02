@@ -36,3 +36,5 @@ class RoboLutador(Robo):
         self.vida *= dano
         dano = round(dano, 2)
         print(f'{self.nome} sofreu {dano} de dano de contra-ataque!')
+
+        

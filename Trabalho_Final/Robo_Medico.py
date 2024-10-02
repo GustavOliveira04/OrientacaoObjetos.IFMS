@@ -28,3 +28,5 @@ class RoboMedico(Robo):
             print(f'{self.nome} curou {robo.nome} em {cura} pontos de vida!')
         else:
             print(f'{self.nome} não pode curar {robo.nome}!')
+
+
