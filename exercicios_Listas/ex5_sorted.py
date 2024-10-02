@@ -9,3 +9,4 @@ segunda_lista = [3, 2, 5, 6, 1, 6, 10]
 
 print(is_sorted(primeira_lista))
 print(is_sorted(segunda_lista)) 
+ 

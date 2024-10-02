@@ -5,7 +5,7 @@ dicionary = {}
 
 for i in range(len(keys)):
     dicionary [keys[i]] = values [i]
-    
+     
 print(dicionary) 
 
 #----------------------------------------------

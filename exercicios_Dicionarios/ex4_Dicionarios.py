@@ -8,7 +8,7 @@ def criar_dicionario_quadrado(k):
 # Teste
 
 k = 5
-dicionario_teste = criar_dicionario_quadrado(k)
+dicionario_teste = criar_dicionario_quadrado(k) 
 print(dicionario_teste)
 
 # Teste de erro

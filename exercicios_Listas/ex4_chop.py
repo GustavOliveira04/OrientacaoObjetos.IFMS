@@ -9,4 +9,4 @@ def chop(lista):
 
 list = [4, 8, 5, 7]
 chop(list)
-print(list)
+print(list) 

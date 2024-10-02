@@ -25,4 +25,4 @@ print(nested_sum(t))
 
 # t = [[1, 2], [4, 4, 4], [5], [6, 6]]
 # nested_sum(t)
-# print(nested_sum(t))
+# print(nested_sum(t)) 
